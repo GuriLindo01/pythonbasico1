@@ -12,7 +12,7 @@ print("Nome: ", nome)
 while True:
     senha = input("Digite sua senha: (max. 6 caracteres):")
 
-    if len(senha) <=0:
+    if len(senha) <=6:
         break
     else:
         print("A senha deve ter 6 caracteres no máximo. ")
